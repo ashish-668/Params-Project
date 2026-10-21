@@ -10,8 +10,13 @@ const HomeDetails = () => {
   
   return (
       <section className='flex items-center justify-center w-full min-h-screen'>
-        
-        <h1>{DATA.title}</h1>
+        <div className="flex flex-col items-center justify-center w-full">
+          <div>
+            <img height={300} width={500} src={DATA.img} alt="" />
+          </div>
+          <h1 className="text-3xl mt-5">{DATA.title}</h1>
+          <p className="mt-4 text-lg">{DATA.description}</p>
+        </div>
       </section>
   );
 }
