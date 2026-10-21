@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme{
+
+  --color-lite-orange: #FFF7F4;
+  --color-bright-orange: #FF5300;
+
+  --leading-150: 150%;
+  --leading-145: 145%;
+  --leading-146: 146%;
+
+  --text-custom-: px;
+
+}
